@@ -45,3 +45,7 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 126. Word Ladder II
 752. Open the Lock
 818. Race Car
+
+
+## 图论
+[996. Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/)
