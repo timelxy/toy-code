@@ -42,3 +42,6 @@ BITTree[x], represent sum(nums[y, x))
 2. 计算到所有2^n中。  2^n 如果做getPrefixSum， 去掉最低位的1，直接就变0了，所以所有小于n的数，都要被加入到BITTRee[2^n]中
 
 
+## reference
+https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+https://en.wikipedia.org/wiki/Fenwick_tree
