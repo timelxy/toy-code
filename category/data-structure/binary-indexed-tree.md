@@ -32,8 +32,10 @@ for example, i = 76(1001100), nums[i - 1] ought to be added in:
 - 128(10000000)
 - ...
 
-y = x & (-x)
+`y = x & (-x)`
+
 BITTree[x], represent sum(nums[y, x))
+
 为什么从y到x的所有数字，都要add到BITTree[x]里面？ 可以从getPrefixSum一探究竟。在计算前缀和的时候，是直接从x跳到y的, nums[y, x)这个区间内数字，没有额外的存储
 所以，construct时候，nums[i - 1]需要做两件事：
 1. 被计入到getPreifxSum时候，[y, x)所属区间中的所有值中
