@@ -44,4 +44,5 @@ BITTree[x], represent sum(nums[y, x))
 
 ## reference
 https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+
 https://en.wikipedia.org/wiki/Fenwick_tree
