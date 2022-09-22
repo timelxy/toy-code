@@ -1,4 +1,8 @@
 
+## problem
+[315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
+
 ## How to understand?
 
 ### getPrefixSum
@@ -46,3 +50,9 @@ BITTree[x], represent sum(nums[y, x))
 https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 
 https://en.wikipedia.org/wiki/Fenwick_tree
+
+
+https://www.youtube.com/watch?v=v_wj_mOAlig
+https://blog.csdn.net/Yaokai_AssultMaster/article/details/79492190
+
+y = 2的各种power加和。  即y可以分成好几段，每段的长度为2的power。 因此整个数组也需要枚举所有的2的power长度segment
