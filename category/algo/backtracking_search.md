@@ -8,6 +8,9 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 ![](/lc/images/backtrack-search.png)
 
 
+## DFS
+[437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+
 ## Combination
 17. Letter Combinations of a Phone Number
 77. Combinations
