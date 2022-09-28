@@ -19,9 +19,9 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 [77. Combinations](https://leetcode.cn/problems/combinations/)
 [39. Combination Sum](https://leetcode.cn/problems/combination-sum/)
-40. Combination Sum II
-216. Combination Sum III
-377. Combination Sum IV
+[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 
 ## Permutation
 46. Permutations
