@@ -15,7 +15,7 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 
 # problem category
 
-## Combination
+## Combination，Subset
 最简单的限定组合，通过backtracking实现多层for循环
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
@@ -23,6 +23,7 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 [77. Combinations](https://leetcode.cn/problems/combinations/)
 [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) 
 [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  唯一不同是，本身candidate有重复，结果的组合又不能重复，因此要先排序，方便处理重复
+[78. Subsets](https://leetcode.com/problems/subsets/)
 
 可放回。但是只看组合，排列不同算相同。  因此backtracking的每一次调用，for循环顺序顺序枚举一遍
 [39. Combination Sum](https://leetcode.cn/problems/combination-sum/)
@@ -30,14 +31,13 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 permutation，和上面都不太一样
 [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 
+
+90. Subsets II
+
 ## Permutation
 46. Permutations
 47. Permutations II
 784. Letter Case Permutation
-
-## Subset
-78. Subsets
-90. Subsets II
 
 ## Partition（划分子集、子序列等）
 698. Partition to K Equal Sum Subsets
