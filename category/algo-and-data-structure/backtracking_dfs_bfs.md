@@ -9,13 +9,10 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 如何不走重复的点？set记录走过的点的坐标
 如何从当前点到adjacent点？queue、set都记录坐标
 
-# Problem index
+# category by algo and data structure
 ![](/lc/images/backtrack-search.png)
 
-
-# problem category
-
-## Combination，Subset
+## backtracking
 最简单的限定组合，通过backtracking实现多层for循环
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
@@ -29,34 +26,30 @@ backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 可放回。但是只看组合，排列不同算相同。  因此backtracking的每一次调用，for循环顺序顺序枚举一遍
 [39. Combination Sum](https://leetcode.cn/problems/combination-sum/)
 
-permutation，和上面都不太一样
-[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-
-## Permutation
-46. Permutations
-47. Permutations II
-784. Letter Case Permutation
-
-## Partition（划分子集、子序列等）
-698. Partition to K Equal Sum Subsets
-93. Restore IP Addresses
-131. Palindrome Partitioning
-
 ## DFS
 [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 ## BFS（Matrix）
-542. 01 Matrix
-675. Cut Off Trees for Golf Event
-934. Shortest Bridge
-
-
+1.   01 Matrix
+2.   Cut Off Trees for Golf Event
+3.   Shortest Bridge
 
 ## BFS
-127. Word Ladder
-126. Word Ladder II
-752. Open the Lock
-818. Race Car
+1.   Word Ladder
+2.   Word Ladder II
+3.   Open the Lock
+4.   Race Car
+
+
+## other
+1.  Permutations
+2.  Permutations II
+3.   Letter Case Permutation
+
+Partition（划分子集、子序列等）
+1.   Partition to K Equal Sum Subsets
+2.  Restore IP Addresses
+3.   Palindrome Partitioning
 
 
 ## 图论
