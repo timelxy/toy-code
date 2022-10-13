@@ -4,12 +4,12 @@
 backtracking is DFS for implicit tree, while DFS is backtracking without pruning
 -- https://stackoverflow.com/questions/1294720/whats-the-difference-between-backtracking-and-depth-first-search
 
-# BFS主要方法
+## BFS
 如何初始化bfs的queue？超级源点、排序等
 如何不走重复的点？set记录走过的点的坐标
 如何从当前点到adjacent点？queue、set都记录坐标
 
-# category by algo and data structure
+# Category
 ![](/lc/images/backtrack-search.png)
 
 ## backtracking
